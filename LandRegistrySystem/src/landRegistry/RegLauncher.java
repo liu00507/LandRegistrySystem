@@ -16,8 +16,6 @@ public class RegLauncher {
 	javax.swing.SwingUtilities.invokeLater(new Runnable() {public void run() 
 	{
 		RegViewGUI.launchDialog();
-		
-		
 	}});
 }
 }
