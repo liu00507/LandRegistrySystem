@@ -174,7 +174,7 @@ mainPanel.add(loadPropertyPanel(getRegControl().listOfAllProperties()), property
 	      if (result == JOptionPane.OK_OPTION) {
 Boolean test= (x.matches("---")||x.matches("(.*)---")||x.matches("-(.*)--")||x.matches("--(.*)-")||x.matches("---(.*)")
 ||x.matches("(.*)-(.*)--")||x.matches("--(.*)-(.*)")||x.matches("-(.*)-(.*)-")||x.matches("(.*)-(.*)-(.*)-")||x.matches("-(.*)-(.*)-(.*)"));
-//custom regex build over lab7 without using overly complicated regex, which results in a long boolean expression 
+//custom regex 
 	    	  if(test) 
 	    		  return "";
 	    	  else
